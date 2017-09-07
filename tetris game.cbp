@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="tetris game" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/tetris game" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/tetris game" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/include" />
+		</Compiler>
+		<Linker>
+			<Add library="freeglut" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/lib" />
+		</Linker>
+		<Unit filename="GameSpace.cpp" />
+		<Unit filename="GameSpace.h" />
+		<Unit filename="Line.cpp" />
+		<Unit filename="Line.h" />
+		<Unit filename="Lpiece.cpp" />
+		<Unit filename="Lpiece.h" />
+		<Unit filename="S.cpp" />
+		<Unit filename="S.h" />
+		<Unit filename="SOIL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SOIL.h" />
+		<Unit filename="Square.cpp" />
+		<Unit filename="Square.h" />
+		<Unit filename="T.cpp" />
+		<Unit filename="T.h" />
+		<Unit filename="TetrisGame.cpp" />
+		<Unit filename="TetrisGame.h" />
+		<Unit filename="Tetris_Utils.cpp" />
+		<Unit filename="Tetris_Utils.h" />
+		<Unit filename="Tetronimo.cpp" />
+		<Unit filename="Tetronimo.h" />
+		<Unit filename="image_DXT.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="image_DXT.h" />
+		<Unit filename="image_helper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="image_helper.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="stb_image_aug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stb_image_aug.h" />
+		<Unit filename="stbi_DDS_aug.h" />
+		<Unit filename="stbi_DDS_aug_c.h" />
+		<Unit filename="zS.cpp" />
+		<Unit filename="zS.h" />
+		<Unit filename="zS3.cpp" />
+		<Unit filename="zS3.h" />
+		<Unit filename="zS5.cpp" />
+		<Unit filename="zS5.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
